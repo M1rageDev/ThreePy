@@ -21,17 +21,17 @@ while running:
 
     keys = pg.key.get_pressed()
     if keys[pg.K_w]:
-        NewellRenderer.camPos[2] -= 2
+        ThreePyRenderer.camPos[2] -= 2
     if keys[pg.K_s]:
-        NewellRenderer.camPos[2] += 2
+        ThreePyRenderer.camPos[2] += 2
     if keys[pg.K_a]:
-        NewellRenderer.camPos[0] += 2
+        ThreePyRenderer.camPos[0] += 2
     if keys[pg.K_d]:
-        NewellRenderer.camPos[0] -= 2
+        ThreePyRenderer.camPos[0] -= 2
     if keys[pg.K_UP]:
-        NewellRenderer.camPos[1] += 2
+        ThreePyRenderer.camPos[1] += 2
     if keys[pg.K_DOWN]:
-        NewellRenderer.camPos[1] -= 2
+        ThreePyRenderer.camPos[1] -= 2
 
     if keys[pg.K_RIGHT]:
         cube.rot[1] += 1
@@ -40,7 +40,7 @@ while running:
         cube.rot[1] -= 1
         cube.updateRot()
 
-    NewellRenderer.render(window, cube)
+    ThreePyRenderer.render(window, cube)
 
     pg.display.flip()
     clock.tick(60)
