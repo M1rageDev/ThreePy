@@ -160,7 +160,7 @@ class RenderObject:
         self.updatePos()
         self.updateRot()
 
-class NewellRenderer:
+class ThreePyRenderer:
     camPos = [0, 0, 0]
 
     @staticmethod
