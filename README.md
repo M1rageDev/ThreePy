@@ -2,7 +2,7 @@
 A (very) basic Python 3D renderer.
 
 # Features
-- Wireframe rendering (weak perspective projection)
+- Colored wireframe rendering (weak perspective projection)
 - Custom models (via code or .msh files)
 - Camera position
 - Model rotation
