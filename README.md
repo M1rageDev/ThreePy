@@ -9,4 +9,5 @@ A (very) basic Python 3D renderer.
 
 # Future plans
 - Textured rendering
+- Lighting
 - Rendering on CUDA cores
