@@ -8,7 +8,7 @@ window = pg.display.set_mode((640, 480))
 cubeMesh = Mesh.importFrom("sample_models/cube.msh")
 
 # scene
-cube = RenderObject(cubeMesh.copy(), (0, 0, 0), (0, 0, 0), {"color": (100, 100, 100)})
+cube = RenderObject(cubeMesh, (0, 0, 0), (0, 0, 0), {"color": (100, 100, 100)})
 
 # main loop
 running = True
